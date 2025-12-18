@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Human']
+
+roboflow:
+  workspace: datnguyen-tc9co
+  project: yolov8_flycam-epq5p
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/datnguyen-tc9co/yolov8_flycam-epq5p/dataset/2
