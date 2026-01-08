@@ -36,7 +36,7 @@ We use Unity to recreate disaster environments and collect synthetic training da
 * **Conditions**: Day/Night cycles, Fog, Rain effects\[cite: 23].
 * **Data Collection Process**:
 
-  * **UAV Logic**: Scripted in C# to fly automatically (straight or circular paths) at altitudes of **50–80m** covering >80% of the area\[cite: 39, 51].
+  * **UAV Logic**: Scripted in C# to fly automatically (straight or circular paths) at altitudes of **50–80m** covering >80% of the area.
   * **Camera**: Captures images at 1920x1080 (resized to 640x640 for training) with angles between 0–60°.
   * **Domain Randomization (DR)**: To improve model robustness, we randomized sky backgrounds, lighting, object colors, and weather conditions.
 
@@ -85,7 +85,8 @@ results = model.train(
     imgsz=640,
     batch=16,
     optimizer='Adam',
-    name='victim\\\_detection\\\_v1'
+    name='victim\\\\\\\_detection\\\\\\\_v1'
 )
+
 
 
