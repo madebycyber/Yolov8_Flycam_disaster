@@ -33,7 +33,7 @@ We use Unity to recreate disaster environments and collect synthetic training da
 
 * **Environments**: Three terrain types were built: **Mountainous, Rural, and Urban**.
 * **Scenarios**: Floods, Landslides, Forest fires.
-* **Conditions**: Day/Night cycles, Fog, Rain effects\[cite: 23].
+* **Conditions**: Day/Night cycles, Fog, Rain effects\.
 * **Data Collection Process**:
 
   * **UAV Logic**: Scripted in C# to fly automatically (straight or circular paths) at altitudes of **50–80m** covering >80% of the area.
@@ -51,7 +51,7 @@ Images collected from Unity are processed and labeled using Roboflow.
   * Brightness/Contrast adjustments.
   * Noise addition.
 
-* **Dataset Split**\[cite: 57, 58]:
+* **Dataset Split**:
 
   * **Train**: ~951 images.
   * **Valid**: ~260 images.
